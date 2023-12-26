@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.2",
+	"EngineAssociation": "{97CE9D77-4EDA-6CEA-073A-AF91FCC95A98}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -21,16 +21,6 @@
 		{
 			"Name": "MotionWarping",
 			"Enabled": true
-		},
-		{
-			"Name": "GraphFormatter",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/297159d6d3f4425b9c095b18a811a401"
-		},
-		{
-			"Name": "LowEntryExtStdLib",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/846c2ad08f164f45b0335ecebf85361e"
 		},
 		{
 			"Name": "GPULightmass",
