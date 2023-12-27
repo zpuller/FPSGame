@@ -1,4 +1,10 @@
 class UShooterAnimInstance : UAnimInstance {
+    UPROPERTY()
+    bool bControlRigEnabled;
+
+    UPROPERTY()
+    bool bTurnInPlaceEnabled;
+
     UPROPERTY(BlueprintReadOnly)
     EFireMode FireMode;
 
@@ -124,7 +130,9 @@ class UShooterAnimInstance : UAnimInstance {
         UpdateClipGripAlpha(DeltaTime);
         UpdateLHIKAlpha();
 
-        // TurnInPlace();
+        if (bTurnInPlaceEnabled) {
+            TurnInPlace();
+        }
     }
 
     void UpdateRecoil(float DeltaTime) {
